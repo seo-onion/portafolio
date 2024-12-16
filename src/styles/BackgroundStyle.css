@@ -1,0 +1,29 @@
+.background-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+}
+
+.background-container .background-img {
+  position: fixed;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  z-index: 30;
+}
+
+#prev, #next, .background-container #nav {
+  position: absolute;
+  cursor: pointer;
+  z-index: 40;
+}
+
+
+
+
+
+
